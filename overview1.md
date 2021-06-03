@@ -1,6 +1,7 @@
 ## Overview
 
 The Furnishment API allows you to manage consumers, their accounts as well as activity on those accounts for furnishing to the credit bureaus at any configurable interval. This process also incentivizes the consumers to make payments regularly and build their credit.
+
 You provide account statements for each of your consumers over time, and the Furnishment API will aggregate the data allowing you to create furnishment submissions to the credit bureaus. If an account produces more than one statement in a calendar month, the Furnishment API will take the most relevant (latest) statement available within the specified time range.
 
 The following workflow diagram shows the process of creating consumers, accounts, and furnishing statements. 
@@ -38,7 +39,11 @@ The customer must pay the based on the terms of the credit product and the payme
 Once you have created the product, start with adding consumers and their [accounts](#accounts).
 
 ## Consumer
-A consumer is someone who holds one or more accounts with a company. For example, John Parker can have two home loans from Sunset bank, but each home loan will have a separate account number associated with it. There will be a single consumer record with the name John Parker and the two loan card accounts are associated with that record.\n\nWith the Furnishment API, you can create, update, retrieve, and delete the consumers.\n\nThe Furnishment API allows you to create all the required information about the customer. The required fields are:
+A consumer is someone who holds one or more accounts with a company. For example, John Parker can have two home loans from Sunset bank, but each home loan will have a separate account number associated with it. There will be a single consumer record with the name John Parker and the two loan card accounts are associated with that record.
+
+With the Furnishment API, you can create, update, retrieve, and delete the consumers.
+
+The Furnishment API allows you to create all the required information about the customer. The required fields are:
 <ul><li>First name</li>
   <li>Last Name</li>
   <li>Address</li>
@@ -47,7 +52,9 @@ A consumer is someone who holds one or more accounts with a company. For example
   
   ![image](https://user-images.githubusercontent.com/59159392/119357728-858b2500-bcc5-11eb-953d-a2b40aca7aef.png)
   
-  <strong>Note:</strong> To start using Furnishment API, you must create a consumer. \n\nOnce you have created a consumer, start making accounts.
+  <strong>Note:</strong> To start using Furnishment API, you must create a consumer. 
+  
+  Once you have created a consumer, start making accounts.
   
   ## Accounts
   
